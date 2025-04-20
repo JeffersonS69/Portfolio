@@ -1,9 +1,11 @@
 import "./App.css";
 import { NavBar } from "./components/navbar";
+import { Space } from "./components/space-generator";
 
 function App() {
   return (
     <main className="font-[Pixelify_Sans] transition-colors duration-300 ease-in-out">
+      <Space />
       <NavBar />
       <section className="h-screen flex flex-col items-center justify-center px-4 text-center">
         <picture>
