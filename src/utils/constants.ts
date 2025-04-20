@@ -8,6 +8,10 @@ export const MENU = [
         link: "#project",
     },
     {
+        name: "Habilidades",
+        link: "#skills",
+    },
+    {
         name: "Sobre mí",
         link: "#about",
     },
@@ -15,4 +19,10 @@ export const MENU = [
         name: "Contácteme",
         link: "#contact",
     },
+];
+
+export const PHRASES = [
+    " Desarrollador de Software.",
+    " Desarrollador FullStack.",
+    " Ingeniero en Tecnologías de la Información.",
 ];
