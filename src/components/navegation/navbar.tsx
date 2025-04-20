@@ -1,5 +1,5 @@
 import { MENU } from "@/utils/constants";
-import ButtomsSocialNetworks from "../buttoms-social-networks";
+import ButtomsSocialNetworks from "../buttom/buttoms-social-networks";
 import {
   NavigationMenu,
   NavigationMenuItem,
