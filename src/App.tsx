@@ -1,13 +1,16 @@
 import "./App.css";
-import { NavBar } from "./components/navbar";
+import NavigationNavbar from "./components/navegation/navigation";
 import { Space } from "./components/space-generator";
 
 function App() {
   return (
     <main className="font-[Pixelify_Sans] transition-colors duration-300 ease-in-out">
       <Space />
-      <NavBar />
-      <section className="h-screen flex flex-col items-center justify-center px-4 text-center">
+      <NavigationNavbar />
+      <section
+        id="home"
+        className="h-screen flex flex-col items-center justify-center px-4 text-center"
+      >
         <picture>
           <img
             src="/js.svg"
@@ -21,7 +24,10 @@ function App() {
         </p>
       </section>
 
-      <section className="h-screen flex flex-col items-center justify-center px-4 bg-gray-100 dark:bg-zinc-900 text-center">
+      <section
+        id="project"
+        className="h-screen flex flex-col items-center justify-center px-4 bg-gray-100 dark:bg-zinc-900 text-center"
+      >
         <h2 className="text-4xl font-bold mb-4">Proyectos</h2>
         <p className="text-lg max-w-xl">
           Aquí encontrarás algunos de los proyectos que he desarrollado
@@ -30,7 +36,10 @@ function App() {
         </p>
       </section>
 
-      <section className="h-screen flex flex-col items-center justify-center px-4 bg-white dark:bg-black text-center">
+      <section
+        id="about"
+        className="h-screen flex flex-col items-center justify-center px-4 bg-white dark:bg-black text-center"
+      >
         <h2 className="text-4xl font-bold mb-4">Sobre mí</h2>
         <p className="text-lg max-w-xl">
           Soy un apasionado del desarrollo web con experiencia en frontend y
@@ -39,7 +48,10 @@ function App() {
         </p>
       </section>
 
-      <section className="h-screen flex flex-col items-center justify-center px-4 bg-zinc-200 dark:bg-zinc-950 text-center">
+      <section
+        id="contact"
+        className="h-screen flex flex-col items-center justify-center px-4 bg-zinc-200 dark:bg-zinc-950 text-center"
+      >
         <h2 className="text-4xl font-bold mb-4">Contáctame</h2>
         <p className="text-lg max-w-xl">
           ¿Te interesa trabajar conmigo o tienes alguna pregunta? ¡No dudes en
