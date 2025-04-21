@@ -7,11 +7,15 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "../ui/navigation-menu";
+import BubbleText from "../bubble_text";
 
 const NavBar = () => {
   return (
     <>
-      <p className="text-2xl tracking-tight">Jefferson</p>
+      <BubbleText
+        text="Jefferson"
+        style="text-2xl tracking-wide cursor-default"
+      />
       <NavigationMenu className="hidden lg:block">
         <NavigationMenuList>
           {MENU.map((item) => (
