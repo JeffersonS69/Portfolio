@@ -1,7 +1,6 @@
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import { useScrollDirection } from "@/hooks/scroll-direction";
 
 type Props = {
   children: React.ReactNode;
@@ -15,8 +14,6 @@ const AnimatedSection = ({ children, className, id }: Props) => {
     triggerOnce: false,
     threshold: 0.2,
   });
-
-  const scrollDirection = useScrollDirection();
 
   useEffect(() => {
     if (inView) {
