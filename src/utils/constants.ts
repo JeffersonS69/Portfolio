@@ -8,16 +8,16 @@ export const MENU = [
         link: "#project",
     },
     {
+        name: "Experiencia",
+        link: "#experience",
+    },
+    {
         name: "Habilidades",
         link: "#skills",
     },
     {
         name: "Sobre mí",
         link: "#about",
-    },
-    {
-        name: "Contácteme",
-        link: "#contact",
     },
 ];
 
