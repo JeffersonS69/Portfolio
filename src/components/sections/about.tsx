@@ -1,15 +1,17 @@
+import BubbleText from "../bubble_text";
+
 const About = () => {
   return (
-    <section
-      id="about"
-      className="h-screen flex flex-col items-center justify-center px-4 bg-zinc-200 dark:bg-zinc-950 text-center"
-    >
-      <h2 className="text-4xl font-bold mb-4">Sobre mí</h2>
-      <p className="text-lg max-w-xl">
+    <>
+      <BubbleText
+        text="Sobre mí"
+        style="text-6xl font-bold tracking-wide cursor-default"
+      />
+      <p className="mt-4 text-lg max-w-xl">
         Soy un apasionado del desarrollo web con experiencia en frontend y
         backend. Me gusta crear experiencias digitales atractivas y funcionales.
       </p>
-    </section>
+    </>
   );
 };
 

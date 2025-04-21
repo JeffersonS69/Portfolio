@@ -11,7 +11,7 @@ const ButtomsSocialNetworks = () => {
         rel="noopener noreferrer"
       >
         <Button variant="outline" className="cursor-pointer">
-          <FaGithub /> <span>Github</span>
+          <FaGithub /> <span className="hidden xl:inline">Github</span>
         </Button>
       </a>
       <a
@@ -20,7 +20,7 @@ const ButtomsSocialNetworks = () => {
         rel="noopener noreferrer"
       >
         <Button className="cursor-pointer">
-          <FaLinkedin /> <span>LinkedIn</span>
+          <FaLinkedin /> <span className="hidden xl:inline">LinkedIn</span>
         </Button>
       </a>
       <ModeToggle />

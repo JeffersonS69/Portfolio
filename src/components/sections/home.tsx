@@ -1,23 +1,16 @@
 import useGenerateText from "@/hooks/text-generator";
 import { Button } from "../ui/button";
-import { motion } from "framer-motion";
 
 const Home = () => {
   const { displayedText } = useGenerateText();
 
   return (
-    <section
-      id="home"
-      className="h-screen flex flex-col items-center justify-center px-4 text-center"
-    >
+    <>
       <picture>
-        <motion.img
+        <img
           src="/js.svg"
-          className="max-h-32 bg-amber-50 rounded-md border-2"
+          className="max-h-32 bg-white rounded-md border-2"
           alt="js.svg logo"
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
         />
       </picture>
       <h1 className="text-5xl font-bold mt-4">Bienvenidos a mi portafolio</h1>
@@ -43,7 +36,7 @@ const Home = () => {
           </Button>
         </a>
       </div>
-    </section>
+    </>
   );
 };
 

@@ -19,6 +19,10 @@ export const MENU = [
         name: "Sobre mí",
         link: "#about",
     },
+    {
+        name: "Contácteme",
+        link: "#contact",
+    }
 ];
 
 export const PHRASES = [
