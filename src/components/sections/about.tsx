@@ -5,7 +5,7 @@ const About = () => {
     <>
       <BubbleText
         text="Sobre mí"
-        style="text-6xl font-bold tracking-wide cursor-default"
+        style="text-5xl sm:text-6xl font-bold tracking-wide cursor-default"
       />
       <p className="mt-4 text-lg max-w-xl">
         Soy un apasionado del desarrollo web con experiencia en frontend y

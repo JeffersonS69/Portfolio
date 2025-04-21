@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <BubbleText
         text="Contácteme"
-        style="text-6xl font-bold tracking-wide cursor-default"
+        style="text-5xl sm:text-6xl font-bold tracking-wide cursor-default"
       />
       <p className="mt-4 text-lg max-w-xl">
         ¿Te interesa trabajar conmigo o tienes alguna pregunta? ¡No dudes en

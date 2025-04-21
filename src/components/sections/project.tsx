@@ -5,7 +5,7 @@ const Project = () => {
     <>
       <BubbleText
         text="Proyectos"
-        style="text-6xl font-bold tracking-wide cursor-default"
+        style="text-5xl sm:text-6xl font-bold tracking-wide cursor-default"
       />
       <p className="mt-4 text-lg max-w-xl">
         Aquí encontrarás algunos de los proyectos que he desarrollado

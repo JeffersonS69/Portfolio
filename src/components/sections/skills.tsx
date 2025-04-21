@@ -8,7 +8,7 @@ const Skills = () => {
     <>
       <BubbleText
         text="Habilidades"
-        style="text-6xl font-bold tracking-wide cursor-default"
+        style="text-5xl sm:text-6xl font-bold tracking-wide cursor-default"
       />
       <Tabs
         defaultValue="frontend"

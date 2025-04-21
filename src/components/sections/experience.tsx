@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <BubbleText
       text="Experiencias"
-      style="text-6xl font-bold tracking-wide cursor-default"
+      style="text-5xl sm:text-6xl font-bold tracking-wide cursor-default"
     />
   );
 };
