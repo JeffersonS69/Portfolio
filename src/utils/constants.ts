@@ -30,3 +30,22 @@ export const PHRASES = [
     " Desarrollador FullStack.",
     " Ingeniero en Tecnologías de la Información.",
 ];
+
+export const OPTIONFORM = [
+    {
+        name: "username",
+        placeholder: "Saul Goodman",
+        title: "Nombre",
+    },
+    {
+        name: "email",
+        placeholder: "sauljp12@email.com",
+        title: "Email",
+    },
+    {
+        name: "message",
+        placeholder: "Estimado...",
+        title: "Mensaje",
+    },
+];
+

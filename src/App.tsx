@@ -1,3 +1,4 @@
+import { Toaster } from "sonner";
 import "./App.css";
 import AnimatedSection from "./components/animated_section";
 import NavigationNavbar from "./components/navegation/navigation";
@@ -50,6 +51,7 @@ function App() {
       >
         <Contact />
       </AnimatedSection>
+      <Toaster richColors position="bottom-right" />
     </main>
   );
 }
