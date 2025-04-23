@@ -17,13 +17,13 @@ function App() {
       <NavigationNavbar />
       <AnimatedSection
         id="home"
-        className="h-screen flex flex-col items-center justify-center px-4 text-center"
+        className="h-screen flex flex-col items-center justify-center p-6 text-center"
       >
         <Home />
       </AnimatedSection>
       <AnimatedSection
         id="project"
-        className="h-screen flex flex-col items-center justify-center px-4 bg-gray-100 dark:bg-zinc-900 text-center"
+        className="h-auto xl:h-screen flex flex-col items-center justify-center p-6 bg-gray-100 dark:bg-zinc-900 text-center overflow-hidden"
       >
         <Project />
       </AnimatedSection>
@@ -35,19 +35,19 @@ function App() {
       </AnimatedSection>
       <AnimatedSection
         id="skills"
-        className="h-screen flex flex-col items-center justify-center px-4 bg-zinc-200 dark:bg-zinc-950 text-center"
+        className="h-screen flex flex-col items-center justify-center p-6 bg-zinc-200 dark:bg-zinc-950 text-center"
       >
         <Skills />
       </AnimatedSection>
       <AnimatedSection
         id="about"
-        className="h-screen flex flex-col items-center justify-center px-4 bg-white dark:bg-black text-center"
+        className="h-screen flex flex-col items-center justify-center p-6 bg-white dark:bg-black text-center"
       >
         <About />
       </AnimatedSection>
       <AnimatedSection
         id="contact"
-        className="h-screen flex flex-col items-center justify-center px-4 bg-zinc-200 dark:bg-zinc-950 text-center"
+        className="h-screen flex flex-col items-center justify-center p-6 bg-zinc-200 dark:bg-zinc-950 text-center"
       >
         <Contact />
       </AnimatedSection>

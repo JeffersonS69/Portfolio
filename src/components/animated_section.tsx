@@ -33,11 +33,11 @@ const AnimatedSection = ({ children, className, id }: Props) => {
       variants={{
         hidden: {
           opacity: 0,
-          x: -50,
+          y: -50,
         },
         visible: {
           opacity: 1,
-          x: 0,
+          y: 0,
         },
       }}
       transition={{ duration: 1, ease: "easeOut" }}

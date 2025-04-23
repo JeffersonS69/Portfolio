@@ -22,9 +22,11 @@ const Contact = () => {
     <>
       <BubbleText
         text="Contácteme"
-        style="text-5xl sm:text-6xl font-bold tracking-wide cursor-default"
-      />
-      <p className="mt-4 text-lg max-w-xl">
+        style=" relative inline-block text-5xl sm:text-6xl font-bold tracking-wide cursor-default "
+      >
+        <span className="absolute left-1/2 -bottom-4 w-45 h-1 bg-gradient-to-r from-amber-300 to-amber-500 rounded-full -translate-x-1/2" />
+      </BubbleText>
+      <p className="mt-10 text-lg max-w-xl">
         ¿Te interesa trabajar conmigo o tienes alguna pregunta? ¡No dudes en
         escribirme!
       </p>
