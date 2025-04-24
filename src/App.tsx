@@ -29,7 +29,7 @@ function App() {
       </AnimatedSection>
       <AnimatedSection
         id="experience"
-        className="h-auto flex flex-col items-center justify-center p-6 bg-white dark:bg-black text-center"
+        className="h-auto flex flex-col items-center justify-center py-20 px-6 bg-white dark:bg-black text-center"
       >
         <Experience />
       </AnimatedSection>
