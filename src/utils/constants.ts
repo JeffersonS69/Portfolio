@@ -92,7 +92,7 @@ export const ITEMSEXPERIENCE = [
     {
         nameCompany: "Vitio Latam",
         position: "Desarrollador Backend",
-        date: "DIC 2021 | ACTUALIDAD",
+        date: "DIC 2024 | ACTUALIDAD",
         description: "Diseño e implemento soluciones escalables bajo una arquitectura de microservicios, optimizando la interoperabilidad y la mantenibilidad de los sistemas.",
         skills: [
             {
