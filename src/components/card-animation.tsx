@@ -55,7 +55,7 @@ const CardAnimation = ({
         <CardItem translateZ={40} className="w-full mt-4">
           <div className="flex justify-center gap-2 flex-wrap">
             {CARDSKILLS[nameSkills].map((skill) => (
-              <Badge key={skill.name}>
+              <Badge key={skill.name} className="cursor-default">
                 <div className="flex gap-1 items-center">
                   <skill.icon />
                   {skill.name}
