@@ -12,7 +12,7 @@ import { Space } from "./components/space-generator";
 
 function App() {
   return (
-    <main className="font-[Pixelify_Sans] transition-colors duration-300 ease-in-out  ">
+    <main className="font-[Pixelify_Sans] transition-colors duration-300 ease-in-out">
       <Space />
       <NavigationNavbar />
       <AnimatedSection
@@ -29,7 +29,7 @@ function App() {
       </AnimatedSection>
       <AnimatedSection
         id="experience"
-        className="h-screen flex flex-col items-center justify-center p-6 bg-white dark:bg-black text-center"
+        className="h-auto flex flex-col items-center justify-center p-6 bg-white dark:bg-black text-center"
       >
         <Experience />
       </AnimatedSection>
