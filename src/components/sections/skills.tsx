@@ -14,7 +14,7 @@ const Skills = () => {
       </BubbleText>
       <Tabs
         defaultValue="frontend"
-        className="mt-8 w-full max-w-3xl xl:max-w-6xl mx-auto"
+        className="mt-15 w-full max-w-3xl xl:max-w-6xl mx-auto"
       >
         <TabsList className="grid w-full grid-cols-3">
           {Object.keys(SKILLS).map((key) => (
