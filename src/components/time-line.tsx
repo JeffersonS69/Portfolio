@@ -2,37 +2,7 @@ import { motion, useScroll, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Badge } from "./ui/badge";
 import { IconType } from "react-icons/lib";
-
-const colorClasses = {
-  violet: {
-    border: "border-violet-800 hover:border-violet-600",
-    bg: "bg-violet-700/25 hover:bg-violet-600/40",
-    stroke: "stroke-violet-800",
-    borderImg: "border-violet-800",
-    badge: "border-violet-900",
-  },
-  gray: {
-    border: "border-gray-800 hover:border-gray-600",
-    bg: "bg-gray-700/25 hover:bg-gray-600/40",
-    stroke: "stroke-gray-800",
-    borderImg: "border-gray-800",
-    badge: "border-gray-900",
-  },
-  teal: {
-    border: "border-teal-800 hover:border-teal-600",
-    bg: "bg-teal-700/25 hover:bg-teal-600/40",
-    stroke: "stroke-teal-800",
-    borderImg: "border-teal-800",
-    badge: "border-teal-900",
-  },
-  sky: {
-    border: "border-sky-800 hover:border-sky-600",
-    bg: "bg-sky-700/25 hover:bg-sky-600/40",
-    stroke: "stroke-sky-800",
-    borderImg: "border-sky-800",
-    badge: "border-sky-900",
-  },
-};
+import { COLORCLASSES } from "@/utils/color";
 
 export function Item({
   nameCompany,
@@ -60,7 +30,7 @@ export function Item({
   const isInView = useInView(ref, { once: false, margin: "50px" });
 
   const colorStyle =
-    colorClasses[color as keyof typeof colorClasses] || colorClasses.violet;
+    COLORCLASSES[color as keyof typeof COLORCLASSES] || COLORCLASSES.violet;
 
   return (
     <motion.div
