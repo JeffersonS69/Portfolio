@@ -8,7 +8,6 @@ const About = () => {
   return (
     <motion.div
       layout
-      data-isOpen={isOpen}
       initial={{
         borderStartStartRadius: "50%",
         borderEndEndRadius: "50%",
