@@ -6,8 +6,24 @@ import { SiDbeaver, SiExpress, SiPrisma, SiRabbitmq, SiTypescript, SiVite } from
 import { LuCloudCog } from "react-icons/lu";
 import { DiCss3, DiHtml5, DiJavascript, DiVisualstudio } from "react-icons/di";
 import { VscAzureDevops } from "react-icons/vsc";
+import { IconType } from "react-icons/lib";
 
-export const SKILLS = {
+type Skills = {
+    name: string;
+    icon: IconType;
+}
+interface ISkills {
+    frontend: Skills[];
+    backend: Skills[];
+    tools: Skills[];
+}
+
+interface ICardSkill {
+    deone: Skills[];
+    gifexpert: Skills[];
+}
+
+export const SKILLS: ISkills = {
     frontend: [
         { name: "React", icon: FaReact },
         { name: "Next.js", icon: RiNextjsFill },
@@ -40,7 +56,7 @@ export const SKILLS = {
     ],
 };
 
-export const CARDSKILLS = {
+export const CARDSKILLS: ICardSkill = {
     deone: [
         {
             name: "Typescript",

@@ -6,7 +6,12 @@ import { MdOutlineMiscellaneousServices } from 'react-icons/md'
 import { TbBrandReactNative } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
 
-export const MENU = [
+interface IMenu {
+    name: string;
+    link: string;
+}
+
+export const MENU: IMenu[] = [
     {
         name: "Inicio",
         link: "#home",
@@ -33,7 +38,7 @@ export const MENU = [
     }
 ];
 
-export const PHRASES = [
+export const PHRASES: string[] = [
     " Desarrollador de Software.",
     " Desarrollador FullStack.",
     " Ingeniero en Tecnologías de la Información.",
