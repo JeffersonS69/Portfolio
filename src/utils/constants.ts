@@ -206,3 +206,5 @@ export const ITEMSEXPERIENCE = [
         imagen: "https://media.licdn.com/dms/image/v2/D4E0BAQGiwYqFctenFw/company-logo_100_100/company-logo_100_100/0/1719256936262/puceesmeraldas_logo?e=1750896000&v=beta&t=pagQN7gcsjUifBKanaCHcya0sNzziIjoc7KUsYSsyBU"
     },
 ];
+
+export const MESSAGEABOUT = "Hola, soy Jefferson Garcia, desarrollador de software con (+3 años) de experiencia, un apasionado por la tecnología y el desarrollo web. Mi enfoque principal es construir soluciones eficientes y escalables. Las herramientas que más uso son TypeScript, Node.js, Express, React y PostgreSQL.Mi interés en la tecnología me ha impulsado a profundizar en cada una de estas herramientas para desarrollar aplicaciones sólidas y de rendimiento.Me considero una persona proactiva, responsable, con capacidad para trabajar en equipo y bajo presión.Me gusta afrontar nuevos retos y aprender de ellos."

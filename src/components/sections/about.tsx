@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import BubbleText from "../bubble-text";
+import { MESSAGEABOUT } from "@/utils/constants";
 
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -70,16 +71,7 @@ const About = () => {
             }}
           >
             <p className="text-sm md:text-base tracking-wider max-w-xs">
-              Hola, soy Jefferson Garcia, desarrollador de software con (+3
-              años) de experiencia, un apasionado por la tecnología y el
-              desarrollo web. Mi enfoque principal es construir soluciones
-              eficientes y escalables. Las herramientas que más uso son
-              TypeScript, Node.js, Express, React y PostgreSQL. Mi interés en la
-              tecnología me ha impulsado a profundizar en cada una de estas
-              herramientas para desarrollar aplicaciones sólidas y de
-              rendimiento. Me considero una persona proactiva, responsable, con
-              capacidad para trabajar en equipo y bajo presión. Me gusta
-              afrontar nuevos retos y aprender de ellos.
+              {MESSAGEABOUT}
             </p>
           </div>
         </motion.div>
