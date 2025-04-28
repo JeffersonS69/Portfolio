@@ -1,17 +1,9 @@
+import {
+  Theme,
+  ThemeProviderProps,
+  ThemeProviderState,
+} from "@/types/theme-provider.types";
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
-
-type Theme = "dark" | "light";
-
-type ThemeProviderProps = {
-  children: React.ReactNode;
-  defaultTheme?: Theme;
-  storageKey?: string;
-};
-
-type ThemeProviderState = {
-  theme: Theme;
-  setTheme: (theme: Theme) => void;
-};
 
 const initialState: ThemeProviderState = {
   theme: "dark",
@@ -48,13 +40,16 @@ export function ThemeProvider({
     root.classList.add(theme);
   }, [theme]);
 
-  const value = useMemo(() => ({
-    theme,
-    setTheme: (theme: Theme) => {
-      localStorage.setItem(storageKey, theme);
-      setTheme(theme);
-    },
-  }), [theme, storageKey]);
+  const value = useMemo(
+    () => ({
+      theme,
+      setTheme: (theme: Theme) => {
+        localStorage.setItem(storageKey, theme);
+        setTheme(theme);
+      },
+    }),
+    [theme, storageKey]
+  );
 
   return (
     <ThemeProviderContext.Provider {...props} value={value}>
