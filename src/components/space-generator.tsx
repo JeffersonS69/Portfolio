@@ -1,9 +1,7 @@
 import { useEffect } from "react";
 import "@/styles/space.css";
-import { useTheme } from "./theme-provider";
-
-const COLORS_LIGHT = ["#0002", "#0004", "#0007", "#000c"];
-const COLORS_DARK = ["#fff2", "#fff4", "#fff7", "#fffc"];
+import { useTheme } from "./theme/theme-provider";
+import { COLORS_DARK, COLORS_LIGHT } from "@/utils/color";
 
 const generateSpaceLayer = (
   size: string,
