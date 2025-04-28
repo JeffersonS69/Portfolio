@@ -1,5 +1,5 @@
 import { CARDITEMS } from "@/utils/constants";
-import BubbleText from "../bubble_text";
+import BubbleText from "../bubble-text";
 import CardAnimation from "../card-animation";
 
 const Project = () => {

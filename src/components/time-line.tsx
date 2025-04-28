@@ -70,7 +70,6 @@ export function Item({
           />
         </svg>
       </figure>
-
       <div className="sm:absolute sm:top-3 md:top-4 sm:left-0 w-auto h-auto flex flex-col justify-center items-start text-start px-4 text-sm gap-3">
         <div className="flex items-center gap-2">
           <img

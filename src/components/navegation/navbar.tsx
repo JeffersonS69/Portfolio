@@ -7,7 +7,7 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "../ui/navigation-menu";
-import BubbleText from "../bubble_text";
+import BubbleText from "../bubble-text";
 
 const NavBar = () => {
   return (

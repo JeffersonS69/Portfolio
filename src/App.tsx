@@ -1,6 +1,6 @@
 import { Toaster } from "sonner";
 import "./App.css";
-import AnimatedSection from "./components/animated_section";
+import AnimatedSection from "./components/animated-section";
 import NavigationNavbar from "./components/navegation/navigation";
 import { Space } from "./components/space-generator";
 import { SECTIONS } from "./utils/sections";

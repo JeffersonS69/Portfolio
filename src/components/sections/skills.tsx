@@ -1,7 +1,7 @@
 import { SKILLS } from "@/utils/icons";
 import { Tabs, TabsList, TabsTrigger } from "../ui/tabs";
-import TabsContentSkills from "../tabs_content_skills";
-import BubbleText from "../bubble_text";
+import TabsContentSkills from "../tabs-content-skills";
+import BubbleText from "../bubble-text";
 
 const Skills = () => {
   return (

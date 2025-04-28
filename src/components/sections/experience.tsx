@@ -1,5 +1,5 @@
 import { ITEMSEXPERIENCE } from "@/utils/constants";
-import BubbleText from "../bubble_text";
+import BubbleText from "../bubble-text";
 import { Item } from "../time-line";
 
 const Experience = () => {

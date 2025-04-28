@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import BubbleText from "../bubble_text";
+import BubbleText from "../bubble-text";
 
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
