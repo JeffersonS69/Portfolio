@@ -13,8 +13,8 @@ const Home = () => {
           alt="js.svg logo"
         />
       </picture>
-      <h1 className="text-5xl font-bold mt-4">Bienvenidos a mi portafolio</h1>
-      <p className="text-lg mt-2">
+      <h1 className="text-5xl font-bold mt-4 select-none">Bienvenidos a mi portafolio</h1>
+      <p className="text-lg mt-2 select-none">
         Soy Jefferson Garcia,{" "}
         <span className="text-amber-500 dark:text-amber-300">
           {displayedText}

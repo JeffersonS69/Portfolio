@@ -7,7 +7,7 @@ const Experience = () => {
     <>
       <BubbleText
         text="Experiencias"
-        style=" relative inline-block text-5xl sm:text-6xl font-bold tracking-wide cursor-default "
+        style=" relative inline-block text-5xl sm:text-6xl font-bold tracking-wide cursor-default select-none"
       >
         <span className="absolute left-1/2 -bottom-4 w-45 h-1 bg-gradient-to-r from-amber-300 to-amber-500 rounded-full -translate-x-1/2" />
       </BubbleText>

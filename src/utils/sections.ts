@@ -21,7 +21,7 @@ export const SECTIONS: ISection[] = [
     {
         id: "project",
         style:
-            "h-auto xl:h-screen flex flex-col items-center justify-center p-6 bg-gray-100 dark:bg-zinc-900 text-center overflow-hidden",
+            "h-auto xl:h-screen flex flex-col items-center justify-center p-6 bg-gray-100 dark:bg-zinc-900 text-center overflow-hidden select-none",
         component: Project,
     },
     {
@@ -33,7 +33,7 @@ export const SECTIONS: ISection[] = [
     {
         id: "skills",
         style:
-            "h-screen flex flex-col items-center justify-center p-6 bg-zinc-200 dark:bg-zinc-950 text-center",
+            "h-screen flex flex-col items-center justify-center p-6 bg-zinc-200 dark:bg-zinc-950 text-center select-none",
         component: Skills,
     },
     {
