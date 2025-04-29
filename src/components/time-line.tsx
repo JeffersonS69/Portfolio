@@ -81,7 +81,7 @@ export function Item({
             <p className="font-bold text-lg md:text-2xl tracking-wide">
               {nameCompany}
             </p>
-            <p className="tracking-wide md:text-lg text-gray-300">{position}</p>
+            <p className="tracking-wide md:text-lg text-gray-500 dark:text-blue-200">{position}</p>
           </div>
         </div>
         <p className="text-gray-600 dark:text-gray-400 md:text-base">{date}</p>
